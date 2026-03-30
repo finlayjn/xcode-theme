@@ -1,0 +1,37 @@
+{
+  "name": "xcode-default-theme",
+  "displayName": "Xcode Default Theme",
+  "description": "A faithful port of Xcode's Default Light and Dark themes for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "finlayjn",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xcode Default Light",
+        "uiTheme": "vs",
+        "path": "./themes/xcode-default-light-color-theme.json"
+      },
+      {
+        "label": "Xcode Default Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/xcode-default-dark-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[*]": {
+        "editor.fontFamily": "SF Mono, SFMono-Regular, Menlo, Monaco, 'Courier New', monospace",
+        "editor.fontSize": 12,
+        "editor.fontWeight": "normal",
+        "editor.lineHeight": 1.1,
+        "terminal.integrated.fontFamily": "SF Mono, SFMono-Regular, Menlo, Monaco, 'Courier New', monospace",
+        "terminal.integrated.fontSize": 12
+      }
+    }
+  }
+}
