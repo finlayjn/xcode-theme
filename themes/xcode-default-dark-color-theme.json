@@ -252,7 +252,7 @@
     "textCodeBlock.background": "#303239",
 
     // Git decoration
-    "gitDecoration.modifiedResourceForeground": "#8E8E8E",
+    "gitDecoration.modifiedResourceForeground": "#579FDD",
     "gitDecoration.deletedResourceForeground": "#F74A4A",
     "gitDecoration.untrackedResourceForeground": "#4FC941",
     "gitDecoration.conflictingResourceForeground": "#F74A4A",

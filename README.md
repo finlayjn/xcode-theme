@@ -15,6 +15,8 @@ A faithful port of Apple's **Xcode Default Light** and **Xcode Default Dark** co
 
 All colors were programmatically converted from Xcode's `.xccolortheme` RGBA float format to hex using the included `convert_colors.py` script — no manual guessing. Some colors were manually adjusted for contrast (e.g. warning squiggles).
 
+Git-modified file labels use a blue color (`#579FDD` dark / `#1C6BA0` light) instead of the original gray, which was too similar to gitignored files. The blue aligns with Xcode's source control accent.
+
 Both light and dark variants are included, each mapped from their respective Xcode source themes.
 
 ## Adding a New Theme
